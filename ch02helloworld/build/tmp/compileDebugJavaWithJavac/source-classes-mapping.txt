@@ -1,4 +1,4 @@
-com/helloworld/HelloWorldActivity.java
- com.helloworld.HelloWorldActivity
 com/helloworld/BuildConfig.java
  com.helloworld.BuildConfig
+com/helloworld/HelloWorldActivity.java
+ com.helloworld.HelloWorldActivity

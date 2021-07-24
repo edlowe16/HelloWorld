@@ -16,7 +16,7 @@ public class HelloWorldActivity extends Activity
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         button = new Button(this);
-        button.setText("Touch me!");
+        button.setText("Touch me lol!");
         button.setOnClickListener(this);
         setContentView(button);
     }
