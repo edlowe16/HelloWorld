@@ -1,0 +1,14 @@
+com.badlogic.androidgames.mrnom:style/AppTheme = 0x7f070000
+com.badlogic.androidgames.mrnom:dimen/padding_medium = 0x7f010001
+com.badlogic.androidgames.mrnom:string/menu_settings = 0x7f060002
+com.badlogic.androidgames.mrnom:string/app_name = 0x7f060000
+com.badlogic.androidgames.mrnom:string/hello_world = 0x7f060001
+com.badlogic.androidgames.mrnom:menu/activity_main = 0x7f050000
+com.badlogic.androidgames.mrnom:string/title_activity_main = 0x7f060003
+com.badlogic.androidgames.mrnom:drawable/ic_launcher = 0x7f020001
+com.badlogic.androidgames.mrnom:layout/activity_main = 0x7f040000
+com.badlogic.androidgames.mrnom:id/menu_settings = 0x7f030000
+com.badlogic.androidgames.mrnom:drawable/icon = 0x7f020002
+com.badlogic.androidgames.mrnom:drawable/ic_action_search = 0x7f020000
+com.badlogic.androidgames.mrnom:dimen/padding_small = 0x7f010002
+com.badlogic.androidgames.mrnom:dimen/padding_large = 0x7f010000

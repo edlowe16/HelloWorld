@@ -2,3 +2,4 @@ rootProject.name = "Hello World"
 include ':app'
 include ':ch02helloworld'
 include ':ch04androidbasics'
+include ':ch06mrnom'

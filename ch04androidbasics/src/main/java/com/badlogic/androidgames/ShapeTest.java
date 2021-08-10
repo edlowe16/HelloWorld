@@ -31,7 +31,7 @@ public class ShapeTest extends Activity {
                         
             paint.setStyle(Style.FILL);
             paint.setColor(0x770000ff);
-            canvas.drawRect(100, 100, 200, 200, paint);
+            canvas.drawRect(50, 50, 300, 300, paint);
             invalidate();
         }
     }

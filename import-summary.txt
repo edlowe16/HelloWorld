@@ -7,7 +7,7 @@ The following files were *not* copied into the new Gradle project; you
 should evaluate whether these are still needed in your project and if
 so manually move them:
 
-* ch04-android-basics.iml
+* ch06-mr-nom.iml
 * ic_launcher-web.png
 * proguard-project.txt
 
@@ -28,10 +28,10 @@ Moved Files:
 Android Gradle projects use a different directory structure than ADT
 Eclipse projects. Here's how the projects were restructured:
 
-* AndroidManifest.xml => ch04androidbasics\src\main\AndroidManifest.xml
-* assets\ => ch04androidbasics\src\main\assets\
-* res\ => ch04androidbasics\src\main\res\
-* src\ => ch04androidbasics\src\main\java\
+* AndroidManifest.xml => ch06mrnom\src\main\AndroidManifest.xml
+* assets\ => ch06mrnom\src\main\assets\
+* res\ => ch06mrnom\src\main\res\
+* src\ => ch06mrnom\src\main\java\
 
 Next Steps:
 -----------

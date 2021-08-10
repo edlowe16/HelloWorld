@@ -1,0 +1,55 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.badlogic.androidgames.mrnom"
+4    android:installLocation="preferExternal"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+8-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch06mrnom\src\main\AndroidManifest.xml:7:5-9:41
+9        android:minSdkVersion="3"
+9-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch06mrnom\src\main\AndroidManifest.xml:8:9-34
+10        android:targetSdkVersion="30" />
+10-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch06mrnom\src\main\AndroidManifest.xml:9:9-38
+11
+12    <uses-permission android:name="android.permission.WAKE_LOCK" />
+12-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch06mrnom\src\main\AndroidManifest.xml:11:5-68
+12-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch06mrnom\src\main\AndroidManifest.xml:11:22-65
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch06mrnom\src\main\AndroidManifest.xml:12:5-80
+13-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch06mrnom\src\main\AndroidManifest.xml:12:22-78
+14
+15    <application
+15-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch06mrnom\src\main\AndroidManifest.xml:14:5-28:19
+16        android:debuggable="true"
+17        android:icon="@drawable/ic_launcher"
+17-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch06mrnom\src\main\AndroidManifest.xml:15:9-45
+18        android:label="Mr. Nom"
+18-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch06mrnom\src\main\AndroidManifest.xml:16:9-32
+19        android:testOnly="true"
+20        android:theme="@style/AppTheme" >
+20-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch06mrnom\src\main\AndroidManifest.xml:17:9-40
+21        <activity
+21-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch06mrnom\src\main\AndroidManifest.xml:18:9-27:20
+22            android:name="com.badlogic.androidgames.mrnom.MrNomGame"
+22-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch06mrnom\src\main\AndroidManifest.xml:19:13-38
+23            android:configChanges="keyboard|keyboardHidden|orientation"
+23-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch06mrnom\src\main\AndroidManifest.xml:22:13-72
+24            android:label="Mr. Nom"
+24-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch06mrnom\src\main\AndroidManifest.xml:20:13-36
+25            android:screenOrientation="portrait" >
+25-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch06mrnom\src\main\AndroidManifest.xml:21:13-49
+26            <intent-filter>
+26-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch06mrnom\src\main\AndroidManifest.xml:23:13-26:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch06mrnom\src\main\AndroidManifest.xml:24:17-69
+27-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch06mrnom\src\main\AndroidManifest.xml:24:25-66
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch06mrnom\src\main\AndroidManifest.xml:25:17-77
+29-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch06mrnom\src\main\AndroidManifest.xml:25:27-74
+30            </intent-filter>
+31        </activity>
+32    </application>
+33
+34</manifest>

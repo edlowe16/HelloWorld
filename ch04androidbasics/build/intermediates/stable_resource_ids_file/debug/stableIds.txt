@@ -1,0 +1,13 @@
+com.badlogic.androidgames:string/app_name = 0x7f060000
+com.badlogic.androidgames:style/AppTheme = 0x7f070000
+com.badlogic.androidgames:string/menu_settings = 0x7f060002
+com.badlogic.androidgames:id/menu_settings = 0x7f030000
+com.badlogic.androidgames:layout/activity_android_basics_starter = 0x7f040000
+com.badlogic.androidgames:dimen/padding_small = 0x7f010002
+com.badlogic.androidgames:dimen/padding_large = 0x7f010000
+com.badlogic.androidgames:drawable/ic_launcher = 0x7f020001
+com.badlogic.androidgames:drawable/ic_action_search = 0x7f020000
+com.badlogic.androidgames:string/hello_world = 0x7f060001
+com.badlogic.androidgames:menu/activity_android_basics_starter = 0x7f050000
+com.badlogic.androidgames:string/title_activity_android_basics_starter = 0x7f060003
+com.badlogic.androidgames:dimen/padding_medium = 0x7f010001

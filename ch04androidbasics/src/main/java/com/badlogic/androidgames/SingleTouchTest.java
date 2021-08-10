@@ -15,7 +15,7 @@ public class SingleTouchTest extends Activity implements OnTouchListener {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         textView = new TextView(this);
-        textView.setText("Touch and drag (one finger only)!");
+        textView.setText("Touch and drag (one finger only!!!!)");
         textView.setOnTouchListener(this);
         setContentView(textView);
     }

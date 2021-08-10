@@ -1,0 +1,41 @@
+com/badlogic/androidgames/BitmapTest.java
+ com.badlogic.androidgames.BitmapTest
+ com.badlogic.androidgames.BitmapTest$RenderView
+com/badlogic/androidgames/MediaPlayerTest.java
+ com.badlogic.androidgames.MediaPlayerTest
+com/badlogic/androidgames/BuildConfig.java
+ com.badlogic.androidgames.BuildConfig
+com/badlogic/androidgames/FontTest.java
+ com.badlogic.androidgames.FontTest
+ com.badlogic.androidgames.FontTest$RenderView
+com/badlogic/androidgames/AccelerometerTest.java
+ com.badlogic.androidgames.AccelerometerTest
+com/badlogic/androidgames/KeyTest.java
+ com.badlogic.androidgames.KeyTest
+com/badlogic/androidgames/SurfaceViewTest.java
+ com.badlogic.androidgames.SurfaceViewTest
+ com.badlogic.androidgames.SurfaceViewTest$FastRenderView
+com/badlogic/androidgames/AssetsTest.java
+ com.badlogic.androidgames.AssetsTest
+com/badlogic/androidgames/AndroidBasicsStarter.java
+ com.badlogic.androidgames.AndroidBasicsStarter
+com/badlogic/androidgames/ExternalStorageTest.java
+ com.badlogic.androidgames.ExternalStorageTest
+com/badlogic/androidgames/MultiTouchTest.java
+ com.badlogic.androidgames.MultiTouchTest
+com/badlogic/androidgames/RenderViewTest.java
+ com.badlogic.androidgames.RenderViewTest
+ com.badlogic.androidgames.RenderViewTest$RenderView
+com/badlogic/androidgames/ShapeTest.java
+ com.badlogic.androidgames.ShapeTest
+ com.badlogic.androidgames.ShapeTest$RenderView
+com/badlogic/androidgames/LifeCycleTest.java
+ com.badlogic.androidgames.LifeCycleTest
+com/badlogic/androidgames/SoundPoolTest.java
+ com.badlogic.androidgames.SoundPoolTest
+com/badlogic/androidgames/WakeLockTest.java
+ com.badlogic.androidgames.WakeLockTest
+com/badlogic/androidgames/FullScreenTest.java
+ com.badlogic.androidgames.FullScreenTest
+com/badlogic/androidgames/SingleTouchTest.java
+ com.badlogic.androidgames.SingleTouchTest

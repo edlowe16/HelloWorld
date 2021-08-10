@@ -1,0 +1,215 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:1:1-83:12
+INJECTED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:1:1-83:12
+INJECTED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:1:1-83:12
+INJECTED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:1:1-83:12
+INJECTED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:1:1-83:12
+INJECTED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:1:1-83:12
+INJECTED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:1:1-83:12
+	package
+		ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:2:5-40
+		INJECTED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:4:5-30
+		INJECTED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:1:11-69
+	android:versionCode
+		ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:3:5-28
+		INJECTED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml
+	android:installLocation
+		ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:5:5-45
+uses-sdk
+ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:7:5-9:41
+INJECTED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:7:5-9:41
+INJECTED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:7:5-9:41
+INJECTED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:7:5-9:41
+INJECTED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:8:9-34
+		INJECTED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:11:5-68
+	android:name
+		ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:11:22-65
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:12:5-80
+	android:name
+		ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:12:22-78
+application
+ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:14:5-82:19
+	android:label
+		ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:16:9-50
+	android:icon
+		ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:15:9-45
+	android:theme
+		ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:17:9-40
+activity#com.badlogic.androidgames.AndroidBasicsStarter
+ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:18:9-26:20
+	android:label
+		ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:20:13-74
+	android:configChanges
+		ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:21:13-72
+	android:name
+		ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:19:13-49
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:22:13-25:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:23:17-69
+	android:name
+		ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:23:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:24:17-77
+	android:name
+		ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:24:27-74
+activity#com.badlogic.androidgames.LifeCycleTest
+ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:27:9-29:75
+	android:label
+		ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:27:19-50
+	android:configChanges
+		ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:29:13-72
+	android:name
+		ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:28:13-42
+activity#com.badlogic.androidgames.SingleTouchTest
+ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:30:3-32:72
+	android:label
+		ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:30:13-46
+	android:configChanges
+		ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:32:10-69
+	android:name
+		ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:31:13-44
+activity#com.badlogic.androidgames.MultiTouchTest
+ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:33:3-35:81
+	android:label
+		ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:33:13-45
+	android:configChanges
+		ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:35:19-78
+	android:name
+		ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:34:13-43
+activity#com.badlogic.androidgames.KeyTest
+ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:36:3-38:81
+	android:label
+		ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:36:13-39
+	android:configChanges
+		ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:38:19-78
+	android:name
+		ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:37:13-36
+activity#com.badlogic.androidgames.AccelerometerTest
+ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:39:9-41:81
+	android:label
+		ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:39:19-53
+	android:configChanges
+		ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:41:19-78
+	android:name
+		ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:40:19-52
+activity#com.badlogic.androidgames.AssetsTest
+ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:42:9-44:81
+	android:label
+		ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:42:19-46
+	android:configChanges
+		ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:44:19-78
+	android:name
+		ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:43:19-45
+activity#com.badlogic.androidgames.ExternalStorageTest
+ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:45:9-47:81
+	android:label
+		ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:45:19-56
+	android:configChanges
+		ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:47:19-78
+	android:name
+		ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:46:19-54
+activity#com.badlogic.androidgames.SoundPoolTest
+ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:48:3-50:81
+	android:label
+		ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:48:13-43
+	android:configChanges
+		ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:50:19-78
+	android:name
+		ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:49:19-48
+activity#com.badlogic.androidgames.MediaPlayerTest
+ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:51:3-53:81
+	android:label
+		ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:51:13-45
+	android:configChanges
+		ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:53:19-78
+	android:name
+		ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:52:19-50
+activity#com.badlogic.androidgames.FullScreenTest
+ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:54:3-57:72
+	android:screenOrientation
+		ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:56:13-49
+	android:label
+		ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:54:13-44
+	android:configChanges
+		ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:57:10-69
+	android:name
+		ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:55:13-43
+activity#com.badlogic.androidgames.WakeLockTest
+ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:58:9-61:81
+	android:screenOrientation
+		ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:60:19-55
+	android:label
+		ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:58:19-49
+	android:configChanges
+		ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:61:19-78
+	android:name
+		ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:59:19-47
+activity#com.badlogic.androidgames.RenderViewTest
+ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:62:3-65:72
+	android:screenOrientation
+		ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:64:13-49
+	android:label
+		ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:62:13-44
+	android:configChanges
+		ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:65:10-69
+	android:name
+		ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:63:13-43
+activity#com.badlogic.androidgames.ShapeTest
+ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:66:3-69:72
+	android:screenOrientation
+		ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:68:13-49
+	android:label
+		ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:66:13-39
+	android:configChanges
+		ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:69:10-69
+	android:name
+		ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:67:13-38
+activity#com.badlogic.androidgames.BitmapTest
+ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:70:3-73:72
+	android:screenOrientation
+		ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:72:13-49
+	android:label
+		ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:70:13-40
+	android:configChanges
+		ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:73:10-69
+	android:name
+		ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:71:13-39
+activity#com.badlogic.androidgames.FontTest
+ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:74:3-77:72
+	android:screenOrientation
+		ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:76:13-49
+	android:label
+		ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:74:13-38
+	android:configChanges
+		ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:77:10-69
+	android:name
+		ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:75:13-37
+activity#com.badlogic.androidgames.SurfaceViewTest
+ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:78:3-81:72
+	android:screenOrientation
+		ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:80:13-49
+	android:label
+		ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:78:13-45
+	android:configChanges
+		ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:81:10-69
+	android:name
+		ADDED from C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:79:13-44

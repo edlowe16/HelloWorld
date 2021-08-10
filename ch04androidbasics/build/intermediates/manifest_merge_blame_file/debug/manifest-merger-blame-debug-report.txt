@@ -1,0 +1,195 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.badlogic.androidgames"
+4    android:installLocation="preferExternal"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+8-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:7:5-9:41
+9        android:minSdkVersion="3"
+9-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:8:9-34
+10        android:targetSdkVersion="30" />
+10-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:9:9-38
+11
+12    <uses-permission android:name="android.permission.WAKE_LOCK" />
+12-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:11:5-68
+12-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:11:22-65
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:12:5-80
+13-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:12:22-78
+14
+15    <application
+15-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:14:5-82:19
+16        android:debuggable="true"
+17        android:icon="@drawable/ic_launcher"
+17-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:15:9-45
+18        android:label="Chapter 4- Android Basics"
+18-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:16:9-50
+19        android:testOnly="true"
+20        android:theme="@style/AppTheme" >
+20-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:17:9-40
+21        <activity
+21-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:18:9-26:20
+22            android:name="com.badlogic.androidgames.AndroidBasicsStarter"
+22-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:19:13-49
+23            android:configChanges="keyboard|keyboardHidden|orientation"
+23-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:21:13-72
+24            android:label="@string/title_activity_android_basics_starter" >
+24-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:20:13-74
+25            <intent-filter>
+25-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:22:13-25:29
+26                <action android:name="android.intent.action.MAIN" />
+26-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:23:17-69
+26-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:23:25-66
+27
+28                <category android:name="android.intent.category.LAUNCHER" />
+28-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:24:17-77
+28-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:24:27-74
+29            </intent-filter>
+30        </activity>
+31        <activity
+31-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:27:9-29:75
+32            android:name="com.badlogic.androidgames.LifeCycleTest"
+32-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:28:13-42
+33            android:configChanges="keyboard|keyboardHidden|orientation"
+33-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:29:13-72
+34            android:label="Life Cycle Test" />
+34-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:27:19-50
+35        <activity
+35-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:30:3-32:72
+36            android:name="com.badlogic.androidgames.SingleTouchTest"
+36-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:31:13-44
+37            android:configChanges="keyboard|keyboardHidden|orientation"
+37-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:32:10-69
+38            android:label="Single Touch Test" />
+38-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:30:13-46
+39        <activity
+39-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:33:3-35:81
+40            android:name="com.badlogic.androidgames.MultiTouchTest"
+40-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:34:13-43
+41            android:configChanges="keyboard|keyboardHidden|orientation"
+41-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:35:19-78
+42            android:label="Multi-Touch Test" />
+42-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:33:13-45
+43        <activity
+43-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:36:3-38:81
+44            android:name="com.badlogic.androidgames.KeyTest"
+44-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:37:13-36
+45            android:configChanges="keyboard|keyboardHidden|orientation"
+45-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:38:19-78
+46            android:label="Touch Test" />
+46-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:36:13-39
+47        <activity
+47-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:39:9-41:81
+48            android:name="com.badlogic.androidgames.AccelerometerTest"
+48-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:40:19-52
+49            android:configChanges="keyboard|keyboardHidden|orientation"
+49-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:41:19-78
+50            android:label="Accelerometer Test" />
+50-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:39:19-53
+51        <activity
+51-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:42:9-44:81
+52            android:name="com.badlogic.androidgames.AssetsTest"
+52-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:43:19-45
+53            android:configChanges="keyboard|keyboardHidden|orientation"
+53-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:44:19-78
+54            android:label="Assets Test" />
+54-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:42:19-46
+55        <activity
+55-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:45:9-47:81
+56            android:name="com.badlogic.androidgames.ExternalStorageTest"
+56-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:46:19-54
+57            android:configChanges="keyboard|keyboardHidden|orientation"
+57-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:47:19-78
+58            android:label="External Storage Test" />
+58-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:45:19-56
+59        <activity
+59-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:48:3-50:81
+60            android:name="com.badlogic.androidgames.SoundPoolTest"
+60-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:49:19-48
+61            android:configChanges="keyboard|keyboardHidden|orientation"
+61-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:50:19-78
+62            android:label="SoundPool Test" />
+62-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:48:13-43
+63        <activity
+63-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:51:3-53:81
+64            android:name="com.badlogic.androidgames.MediaPlayerTest"
+64-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:52:19-50
+65            android:configChanges="keyboard|keyboardHidden|orientation"
+65-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:53:19-78
+66            android:label="MediaPlayer Test" />
+66-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:51:13-45
+67        <activity
+67-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:54:3-57:72
+68            android:name="com.badlogic.androidgames.FullScreenTest"
+68-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:55:13-43
+69            android:configChanges="keyboard|keyboardHidden|orientation"
+69-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:57:10-69
+70            android:label="Fullscreen Test"
+70-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:54:13-44
+71            android:screenOrientation="portrait" />
+71-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:56:13-49
+72        <activity
+72-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:58:9-61:81
+73            android:name="com.badlogic.androidgames.WakeLockTest"
+73-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:59:19-47
+74            android:configChanges="keyboard|keyboardHidden|orientation"
+74-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:61:19-78
+75            android:label="Wake Lock Test"
+75-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:58:19-49
+76            android:screenOrientation="portrait" />
+76-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:60:19-55
+77        <activity
+77-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:62:3-65:72
+78            android:name="com.badlogic.androidgames.RenderViewTest"
+78-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:63:13-43
+79            android:configChanges="keyboard|keyboardHidden|orientation"
+79-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:65:10-69
+80            android:label="RenderView Test"
+80-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:62:13-44
+81            android:screenOrientation="portrait" />
+81-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:64:13-49
+82        <activity
+82-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:66:3-69:72
+83            android:name="com.badlogic.androidgames.ShapeTest"
+83-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:67:13-38
+84            android:configChanges="keyboard|keyboardHidden|orientation"
+84-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:69:10-69
+85            android:label="Shape Test"
+85-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:66:13-39
+86            android:screenOrientation="portrait" />
+86-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:68:13-49
+87        <activity
+87-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:70:3-73:72
+88            android:name="com.badlogic.androidgames.BitmapTest"
+88-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:71:13-39
+89            android:configChanges="keyboard|keyboardHidden|orientation"
+89-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:73:10-69
+90            android:label="Bitmap Test"
+90-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:70:13-40
+91            android:screenOrientation="portrait" />
+91-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:72:13-49
+92        <activity
+92-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:74:3-77:72
+93            android:name="com.badlogic.androidgames.FontTest"
+93-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:75:13-37
+94            android:configChanges="keyboard|keyboardHidden|orientation"
+94-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:77:10-69
+95            android:label="Font Test"
+95-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:74:13-38
+96            android:screenOrientation="portrait" />
+96-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:76:13-49
+97        <activity
+97-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:78:3-81:72
+98            android:name="com.badlogic.androidgames.SurfaceViewTest"
+98-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:79:13-44
+99            android:configChanges="keyboard|keyboardHidden|orientation"
+99-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:81:10-69
+100            android:label="SurfaceView Test"
+100-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:78:13-45
+101            android:screenOrientation="portrait" />
+101-->C:\Users\edlow\AndroidStudioProjects\HelloWorld\ch04androidbasics\src\main\AndroidManifest.xml:80:13-49
+102    </application>
+103
+104</manifest>
